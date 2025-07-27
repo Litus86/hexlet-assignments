@@ -12,14 +12,14 @@ public class Address {
     }
 
     // BEGIN
-    @Inspect
+@Inspect(enabled = true)
     // END
     public String getCity() {
         return city;
     }
 
     // BEGIN
-    @Inspect
+@Inspect(enabled = true)
     // END
     public int getPostalCode() {
         return postalCode;
